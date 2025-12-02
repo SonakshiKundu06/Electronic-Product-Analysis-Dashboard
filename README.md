@@ -1,119 +1,118 @@
-📊 Sales Performance Dashboard – Power BI
 
-A dynamic and interactive Sales Performance Dashboard built using Power BI, designed to help stakeholders quickly understand key sales metrics, performance trends, and customer insights. This dashboard consolidates data across multiple business dimensions and presents it through clean, intuitive visuals.
+🛒 Sales Dashboard 
+📌 Overview
 
-🚀 Project Overview
+This project presents an interactive Sales Performance Dashboard built in Power BI, designed to help users analyze key business metrics such as revenue, orders, product performance, and regional sales distribution.
+The dashboard provides clear visual insights that support data-driven decision-making for improving sales strategy and operational efficiency.
 
-This dashboard provides a comprehensive view of the organization’s sales performance, enabling users to:
+🎯 Objectives
 
-Track total revenue, profit, and quantity sold
+✔️ Track and monitor total sales performance over time
 
-Compare regional, category-wise, and segment-wise performance
+✔️ Identify top-performing products and categories
 
-Analyze monthly sales trends
+✔️ Compare actual sales with targets
 
-Observe the geographical distribution of sales
+✔️ Understand regional sales distribution
 
-Evaluate year-over-year and month-over-month growth
+✔️ Provide actionable insights for business growth
 
-The design emphasizes readability, usability, and real-time decision-making support.
+📂 Dataset Description
 
-🎯 Key Insights Provided by the Dashboard
-✔️ Sales Overview
+The dashboard is built using sales-related data that typically includes:
 
-Displays Total Sales, Total Profit, and Total Quantity Sold as KPIs
+Order Date
 
-Helps quickly assess the company’s current performance
+Product Name / Category
 
-✔️ Sales Trend Analysis
+Sales Amount
 
-A line/area chart showing monthly trends, highlighting seasonal patterns and revenue fluctuations
+Quantity Sold
 
-✔️ Top-Performing Categories & Subcategories
+Region / Location
 
-Bar charts ranking the best-performing product lines
+Customer Information
 
-Helps identify which categories contribute the most to revenue and profit
+Data was cleaned and transformed using Power Query before visualization.
 
-✔️ Geographical Sales Distribution
-
-An interactive map visual showing which countries/regions drive the highest sales
-
-Useful for location-based strategy planning
-
-✔️ Segment-wise & Region-wise Breakdown
-
-Provides performance split by Consumer, Corporate, and Home Office segments
-
-Region-level comparison for deeper understanding of market strength
-
-🛠️ Tools & Technologies Used
-
-Power BI Desktop
-
-Power Query for data cleaning and transformation
-
-DAX for calculated columns and measures
-
-Interactive visuals such as KPI cards, maps, bar charts, and line charts
-
-🔧 Data Preparation Steps
-1️⃣ Data Cleaning
-
-Removed duplicates and null values
-
-Standardized date formats
-
-Fixed inconsistent category labels
-
-2️⃣ Data Transformation
-
-Created DAX measures for:
+📊 Key Features of the Dashboard
+1️⃣ Sales Overview
 
 Total Sales
 
-Total Profit
+Total Orders
 
-Profit Margin
+Average Order Value
 
-YoY and MoM growth
+Sales Trend Over Time (line chart)
 
-3️⃣ Data Modeling
+2️⃣ Product Insights
 
-Built star schema where applicable
+Top 5 Best-Selling Products
 
-Created relationships between fact and dimension tables
+Bottom-performing Products
 
-📈 Dashboard Features
+Product Category-wise Contribution
 
-Fully interactive and filter-driven
+3️⃣ Regional Insights
 
-Clean UI with well-structured layout
+Sales by Region (Map or Bar Chart)
 
-Drill-down capabilities enabled
+High-performing vs low-performing regions
 
-Business-friendly color palette
+4️⃣ KPI Cards
 
-Optimized for performance and clarity
+Clear indicator cards showing targets vs. actuals
 
-🧩 How to Use This Dashboard
+Conditional formatting for performance alerts
 
-Open the .pbix file in Power BI Desktop
+🛠️ Data Processing & Pre-Modelling Steps
+🔹 Data Cleaning
 
-Use the slicers to filter by Region, Segment, Category, or Time Period
+Removed missing or inconsistent entries
 
-Hover over visuals to view tooltips for deeper insights
+Standardized date formats
 
-Export reports as PDF or PowerPoint if needed
+Ensured numeric fields were in the correct datatype
 
-🎯 Conclusion
+🔹 Data Transformation
 
-This Sales Performance Dashboard presents a clear, insightful, and actionable overview of sales activity, enabling organizations to:
+Added calculated columns such as:
 
-Identify growth opportunities
+Profit
 
-Monitor performance over time
+Sales Growth %
 
-Make data-driven decisions
+Category Contribution %
 
-It serves as a robust analytical tool for sales teams, business managers, and strategic planners.
+Used DAX for dynamic measures
+
+🔹 Data Modeling
+
+Created relationships between tables (e.g., Date, Sales, Products)
+
+Star schema used to simplify queries and visuals
+
+📈 Insights Generated
+
+Steady growth observed in monthly sales
+
+Certain products contribute highly disproportionate revenue
+
+Some regions show stronger customer activity, guiding market focus
+
+Seasonal trends suggest optimal periods for marketing campaigns
+
+💡 Conclusion
+
+This dashboard provides a powerful analytical view of sales performance, helping managers and stakeholders make informed and strategic decisions. It acts as a foundation for forecasting, resource planning, and business optimization.
+
+📁 How to Use
+
+Download the .pbix file
+
+Open in Power BI Desktop
+
+Refresh your dataset
+
+Interact with slicers, filters, and visualizations
