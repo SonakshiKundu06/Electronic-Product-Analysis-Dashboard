@@ -1,11 +1,11 @@
                                                                      📊 Sales Dashboard – README
-📝 Overview
+                           📝 Overview
 
 This project presents an interactive Sales Performance Dashboard built in Power BI, designed to help users analyze major business metrics such as revenue, orders, product performance, and regional sales distribution.
 
 The dashboard provides clear visual insights that support data-driven decision-making, helping improve sales strategy and operational efficiency.
 
-🎯 Objectives
+                            🎯 Objectives
 
 ✔️ Track and monitor total sales performance over time
 
@@ -17,7 +17,7 @@ The dashboard provides clear visual insights that support data-driven decision-m
 
 ✔️ Provide actionable insights for business growth
 
-📂 Dataset Description
+                             📂 Dataset Description
 
 The dashboard uses common sales-related data such as:
 
@@ -29,7 +29,7 @@ The dashboard uses common sales-related data such as:
 
 💰 Sales, Revenue & Profit Metrics
 
-📈 Key Features
+                              📈 Key Features
 1️⃣ Sales Trend Analysis
 
 Shows monthly/quarterly sales performance to identify growth and seasonality.
@@ -46,7 +46,7 @@ Visualizes how different regions contribute to overall business.
 
 Helps managers evaluate whether sales goals are being achieved.
 
-💡 Insights Provided
+                              💡 Insights Provided
 
 Identifies sales bottlenecks
 
